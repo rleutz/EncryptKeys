@@ -22,6 +22,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="EncryptKeys.py" />
+    <Compile Include="GenerateRsaKeys.py" />
+    <Compile Include="GetPassword.py" />
+    <Compile Include="main.py" />
+    <Compile Include="ReadPassword.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="password.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
